@@ -3,8 +3,8 @@ from pyrogram.types import Message
 from .base import BotCheckin
 
 
-class ToolsCheckin(BotCheckin):
-    name = "测试1"
+class T00lsCheckin(BotCheckin):
+    name = "T00ls"
     bot_username = "T00lsBot"
     bot_checkin_cmd = "/start"
 
