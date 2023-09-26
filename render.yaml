@@ -3,7 +3,7 @@ services:
     name: embykeeper
     runtime: docker
     plan: free
-    branch: stable
+    branch: main
     dockerfilePath: ./deploy/Dockerfile
     dockerContext: ./deploy/
     healthCheckPath: /healthz
